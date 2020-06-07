@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+
+  <script src="accordion.scss"></script>
+  <link rel="stylesheet">
+  <link rel="stylesheet" href="accordion.min.css" type="text/css" media="all">
+</head>
+
+<body>
+
+
+  <div class="accordion" id="accordion1">
+
+
+    <div class="card" data-aos="fade-up">
+      <div class="card-header" id="heading_1">
+        <h3 class="mb-0">
+          <button class="btn  " type="button" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true"
+            aria-controls="collapse_1">
+            title
+          </button>
+        </h3>
+      </div>
+
+      <div id="collapse_1" class="collapse show" aria-labelledby="heading_1" data-parent="#accordion1">
+        <div class="card-body">
+          Text
+        </div>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <div class="card-header" id="heading_2">
+        <h3 class="mb-0">
+          <button class="btn  " type="button" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true"
+            aria-controls="collapse_2">
+            title 2
+          </button>
+        </h3>
+      </div>
+
+      <div id="collapse_2" class="collapse " aria-labelledby="heading_2" data-parent="#accordion1">
+        <div class="card-body">
+          Text 2
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="collapse.js"></script>
+
+</body>
